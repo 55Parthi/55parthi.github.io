@@ -1,0 +1,35 @@
+.card{
+    height: 50vh;
+    margin: 25px;
+    padding: 25px;
+}
+
+.center{
+    position: adsolute;
+    top: 500%;
+    left: 50%;
+    transform: translate(-50%-50%);
+    text-align: center;
+}
+h4,h6{
+    font-weight: 100;
+    
+}
+body {
+
+    
+  background-image: rgb(241, 195, 195);
+  background-size: cover;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(243, 228, 210);
+  
+  }
+
+
+  body {
+    background-color: rgb(243, 228, 210);
+  }
+ 
