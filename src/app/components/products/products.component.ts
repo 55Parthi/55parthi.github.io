@@ -1,4 +1,4 @@
-import { Component,OnInit } from '@angular/core';
+import { Component,Input,OnInit } from '@angular/core';
 import { ToastrService } from 'ngx-toastr';
 import { CartService } from 'src/app/api/cart.service';
 import { ProductsService } from 'src/app/api/products.service';
@@ -10,7 +10,7 @@ import { ProductsService } from 'src/app/api/products.service';
   styleUrls: ['./products.component.css']
 })
 export class ProductsComponent implements OnInit {
-  public productlist=[
+  public productlist:any=[
     {
         "description": "The main function of a CCTV camera is to capture light and convert it into a video signal",
         "id": "1",
